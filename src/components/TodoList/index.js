@@ -13,6 +13,7 @@ export default function TodoList() {
   const dispatch = useDispatch();
   // const todoList = useSelector((state) => state.todoList);
   const todoList = useSelector(todoListSelector);
+  // const todoList = useSelector(todosRemainingSelector);
 
   const handleAddButtonClick = () => {
     dispatch(
